@@ -1,0 +1,9 @@
+services:
+  hub.zon.dev:
+    container_name: hub.zon.dev
+    build: .
+    ports:
+      - ${PORT}:8080
+    volumes:
+      - .:/opt/app
+    
