@@ -24,9 +24,13 @@
     // internet connectivity.
     .dependencies = .{
         .zinc = .{
-            // .url = "https://github.com/zon-dev/zinc/archive/refs/tags/0.0.1-alpha3.tar.gz",
-            // .hash = "122045fa7e47c7438b0ecdbe0d4908f5039bfcb812c1342ace228d3f0ecd9b4f4f98",
+            // .url = "https://github.com/zon-dev/zinc/archive/refs/heads/main.zip",
+            // .hash = "1220e2950a16230640e5a8ab0610d6cb1874fa04fa6086178a4f9d62d3793e1bf894",
             .path = "../zinc",
+        },
+        .httpz = .{
+            .url = "git+https://github.com/karlseguin/http.zig#5d8c12ca96dc8a034d02b0f6279e842a39a0ac90",
+            .hash = "1220e6ed44e91bb9851d7e77cf8df3cc18a29b5eaefa56c7af256b3537cf71c4fbe5",
         },
     },
     .paths = .{

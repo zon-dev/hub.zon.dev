@@ -23,8 +23,8 @@ pub fn build(b: *std.Build) void {
     });
 
     const zinc = b.dependency("zinc", .{
-    .target = target,
-    .optimize = optimize,
+        .target = target,
+        .optimize = optimize,
     });
     exe.root_module.addImport("zinc", zinc.module("zinc"));
 
